@@ -7,6 +7,6 @@ else
     exit 1
 fi
 
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt &> pip_install.log
 
 echo "The setup is complete."
