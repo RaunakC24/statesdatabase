@@ -3,12 +3,20 @@ import pandas as pd
 import os
 import requests
 
+hostInput = input("Enter the server name: ").strip()
+dbInput = input("Enter the database name: ").strip()
+userInput = input("Enter the username: ").strip()
+passwordInput = input("Enter the password: ").strip()
+portInput = input("Enter the port number: ").strip()
+
+port = int(portInput)
+
 database = pymysql.connect(
-    host= 'sql5.freemysqlhosting.net',
-    user = 'sql5710968',
-    password= 'HguWrLDflk',
-    db = 'sql5710968',
-    port = 3306
+    host= hostInput,
+    user = userInput,
+    password= passwordInput,
+    db = dbInput,
+    port = port
 )
 
 dbcursor = database.cursor()
