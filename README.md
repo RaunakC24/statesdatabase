@@ -19,4 +19,4 @@ This is the file that deletes and inserts the data into the database from the cs
 
 Running search_database.py: 
 
-This is the file that allows the user to search within the database using a python script. To run this file, type "python search_database.py" in the terminal. Make sure you are in the correct folder. You will have to input the database information.
+This is the file that allows the user to search within the database using a python script. To run this file, type "python search_database.py" in the terminal. Make sure you are in the correct folder. You will have to input the database information. Since this is meant for searching, you can search by the different categories, such as state, name, party, etc. If there is a certain category that you do not want to search by, you can just hit enter to skip it. 
