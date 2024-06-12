@@ -15,8 +15,8 @@ To run the setup.sh file, make sure you are in the folder with all of the files 
 
 Running statecsv.py:
 
-This is the file that deletes and inserts the data into the database from the csv files. To run this file, type "python statecsv.py" in the terminal. Make sure you are in the correct folder.
+This is the file that deletes and inserts the data into the database from the csv files. To run this file, type "python statecsv.py" in the terminal. Make sure you are in the correct folder. You will have to input the database information.
 
 Running search_database.py: 
 
-This is the file that allows the user to search within the database using a python script. To run this file, type "python search_database.py" in the terminal. Make sure you are in the correct folder.
+This is the file that allows the user to search within the database using a python script. To run this file, type "python search_database.py" in the terminal. Make sure you are in the correct folder. You will have to input the database information.
