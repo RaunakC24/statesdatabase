@@ -44,7 +44,7 @@ for state in statesAbb:
         pathoffile = os.path.join(folder, f'{state}.csv')
         with open(pathoffile, 'wb') as file:
             file.write(response.content)
-        print("Downloaded Content")
+        print(f"Downloaded {state}.csv")
     else:
         print(f"Failed to download {state}.csv")
 
